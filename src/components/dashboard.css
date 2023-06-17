@@ -1,0 +1,359 @@
+/* .dashboard1Child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--surface-white-surfacewhite);
+    border-bottom: 1px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 1440px;
+  }
+  .searchinput {
+    border: 0;
+    font-weight: 500;
+    font-family: var(--body-body-1);
+    font-size: var(--body-body-1-size);
+    background-color: transparent;
+    position: absolute;
+    top: 16px;
+    left: 854px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .addoutlinedIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .button {
+    position: relative;
+    font-size: var(--body-body-1-size);
+    line-height: 24px;
+    font-family: var(--body-body-1);
+    color: var(--surface-white-surfacewhite);
+    text-align: left;
+  }
+  .textButtonWithIcon {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-smi) var(--padding-base);
+    background-color: var(--interactive-interactiveonedefault);
+    position: absolute;
+    top: 16px;
+    left: 1218px;
+    border-radius: var(--br-5xs);
+    width: 188px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .myBoards {
+    position: absolute;
+    top: 113px;
+    left: 71px;
+    font-size: var(--heading-heading-2-size);
+    line-height: 44px;
+    color: #000;
+  }
+  .icon {
+    position: relative;
+    width: 95.73px;
+    height: 31.92px;
+  }
+  .dashboard1Inner,
+  .frameWrapper,
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard1Inner,
+  .frameWrapper {
+    justify-content: flex-start;
+  }
+  .dashboard1Inner {
+    position: absolute;
+    top: 20px;
+    left: 71px;
+    align-items: flex-start;
+  }
+  .formativeAssessment {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .formativeAssessmentWrapper {
+    border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+    background-color: var(--blue-90);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .mathematics6a {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .mathematics6aWrapper {
+    position: relative;
+    width: 184px;
+    height: 20px;
+  }
+  .groupWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .frameWrapper3,
+  .frameWrapper4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper4 {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-whitesmoke);
+    flex-direction: column;
+  }
+  .frameWrapper3 {
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .frameWrapper1 {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .frameContainer,
+  .frameDiv,
+  .frameWrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameContainer {
+    flex: 1;
+    flex-direction: column;
+  }
+  .frameDiv {
+    flex-direction: row;
+  }
+  .dashboard1Item,
+  .frameDiv {
+    position: absolute;
+    top: 189px;
+    left: 71px;
+    width: 364px;
+    height: 28px;
+  }
+  .dotsverticaloutlinedIcon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .plain {
+    border-radius: var(--br-9xs);
+    background-color: var(--surface-white-surfacewhite);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .formativeAssessmentContainer,
+  .iconButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .iconButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 213px;
+    left: 393px;
+  }
+  .formativeAssessmentContainer {
+    border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+    background-color: var(--yellow-90);
+    padding: var(--padding-5xl);
+  }
+  .mathematics6aContainer {
+    position: relative;
+    width: 79px;
+    height: 20px;
+  }
+  .dashboard1Inner1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dashboard1Child1,
+  .dashboard1Inner1 {
+    position: absolute;
+    top: 189px;
+    left: 467px;
+    width: 364px;
+    height: 28px;
+  }
+  .iconButton1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 213px;
+    left: 789px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .plain2 {
+    border-radius: var(--br-9xs);
+    background-color: var(--surface-white-surfacewhite);
+    display: none;
+    flex-direction: row;
+    padding: var(--padding-5xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .iconButton2 {
+    position: absolute;
+    top: 213px;
+    left: 869px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .textGoesHere {
+    position: relative;
+    font-size: var(--body-body-1-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--body-body-1);
+    color: var(--text-textsubtle);
+    text-align: left;
+  }
+  .dropdownContainers,
+  .dropdownContainers2 {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dropdownContainers2 {
+    background-color: var(--surface-white-surfacewhite);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-smi) var(--padding-base);
+    align-items: center;
+    gap: var(--gap-5xs);
+  }
+  .dropdownContainers {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copyoutlinedIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  .textGoesHere1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .dropdownContainers5 {
+    background-color: var(--surface-white-surfacewhite);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-smi) var(--padding-base);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .dropdownContainers3,
+  .dropdownContainers4 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dropdownContainers4 {
+    display: flex;
+  }
+  .dropdownContainers3 {
+    align-self: stretch;
+    display: none;
+  }
+  .textGoesHere2 {
+    position: relative;
+    font-size: var(--body-body-1-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--body-body-1);
+    color: var(--interactive-interactiveonedefault);
+    text-align: left;
+  }
+  .dropdownContainers7 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dropdown {
+    position: absolute;
+    top: 244px;
+    left: 805px;
+    font-size: var(--body-body-1-size);
+    color: var(--text-textsubtle);
+  }
+  .dashboard1 {
+    position: relative;
+    background-color: var(--surface-white-surfacewhite);
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--body-body-2-size);
+    color: var(--text-textdefault);
+    font-family: var(--body-body-1);
+  }
+   */

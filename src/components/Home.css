@@ -1,0 +1,13 @@
+.container{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Card_div{
+    display: flex;
+}
+
+.Home_hr{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}

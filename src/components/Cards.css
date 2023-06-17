@@ -1,0 +1,42 @@
+.Link_Card{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Main_card{
+    margin: 5px;
+    border: 1px groove rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    padding: 11px;
+    margin-top: 30px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.items
+{
+    /* border: 1px groove rgba(0, 0, 0, 0.3); */
+    width: fit-content;
+    padding: 11px;
+    /* border-radius: 14px; */
+    display: flex;
+    border: none;
+}
+
+.Home_btn{
+    background-color: rgb(197, 197, 252);
+    width: 33px;
+    height: 33px;
+    border: none;
+}
+
+.Home_p{
+    margin: 6px;
+}
+
+.Card_button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

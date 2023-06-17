@@ -1,0 +1,36 @@
+.post_nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+}
+
+.back{
+    border: none;
+    background-color: white;
+    margin-left: 25px;
+    height: 20px;
+    /* width: 17px; */
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.post_logo{
+    height: 45px;
+    margin-left: 0px;
+}
+
+.Post_navbar_buttons{
+    right: 106px;
+    position: absolute;
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Icons_of_Post_navbar{
+    background: none;
+    border: none;
+}
