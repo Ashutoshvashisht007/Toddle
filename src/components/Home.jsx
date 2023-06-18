@@ -18,13 +18,20 @@ const Home = ({myColor,setmyColor,Inputs,setInputs}) => {
       col: "#FFCC66"
     }
   ]);
+  const [set,isSet] = useState(false);
 
   var updatedItems = [];
 
   useEffect(()=>{
-    updatedItems = JSON.parse(localStorage.getItem('Home_Page') || []);
+    if(localStorage.getItem('Home_Page') === null)
+    {
+      localStorage.setItem('Home_Page',JSON.stringify(items));
+    }
+    else{
+      updatedItems = JSON.parse(localStorage.getItem('Home_Page') || []);
     setItems(updatedItems);
-    // updatedItems.push(newItem);
+    }
+    
   },[])
 
   const handleDelete = (id) => {
