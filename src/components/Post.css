@@ -52,3 +52,7 @@
 .nthng_h3{
     margin-top: 15px;
 }
+
+.making_col{
+    display: flex;
+}

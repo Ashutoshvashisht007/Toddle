@@ -29,6 +29,31 @@
     cursor: pointer;
 }
 
+.adding_img{
+    border: 1px groove #717171;
+    width: fit-content;
+    margin-top: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+label{
+    padding: 2px;
+    color: #717171;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    width: max-content;;
+}
+
+.Choosing_file{
+    display: none;
+}
+
 .Post_Upload_h2{
     margin-bottom: -15px;
 }

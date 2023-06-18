@@ -1,0 +1,48 @@
+.Post_Card_div{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding: 16px;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.Post_Card_title{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 20vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.Post_Card_Bookmark{
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Post_Card_Vertical{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Post_Card_img{
+    border-radius: 8px;
+    margin-top: 18px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Post_Card_desc{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 18px;
+}
+

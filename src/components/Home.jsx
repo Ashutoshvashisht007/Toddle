@@ -27,6 +27,18 @@ const Home = ({myColor,setmyColor,Inputs,setInputs}) => {
     // updatedItems.push(newItem);
   },[])
 
+  const handleDelete = (id) => {
+    setItems(items.filter( item => item.id !== id));
+    let datas = JSON.parse(localStorage.getItem('Home_Page'));
+    datas.forEach((data,index)=>{
+      if(id === data.id)
+      {
+        datas.splice(index,1);
+      }
+  });
+  localStorage.setItem('Home_Page',JSON.stringify(datas));
+  }
+
   return (
     <>
     <Navbar items={items} setItems={setItems} myColor={myColor} setmyColor={setmyColor} Inputs={Inputs} setInputs={setInputs} Clicked={Clicked} isClicked={isClicked}/>
@@ -36,7 +48,7 @@ const Home = ({myColor,setmyColor,Inputs,setInputs}) => {
       <div className='Card_div'>
       {
             items.map( (item) => (
-            <Cards key={item.id} id={item.id} text={item.text} col={item.col} setmyColor={setmyColor} setInputs={setInputs}/>
+            <Cards key={item.id} onDelete= {handleDelete} id={item.id} text={item.text} col={item.col} setmyColor={setmyColor} setInputs={setInputs}/>
         ))
       }
       </div>

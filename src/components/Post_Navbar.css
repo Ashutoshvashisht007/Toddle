@@ -21,6 +21,11 @@
     margin-left: 0px;
 }
 
+.Post_nav_input{
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .Post_navbar_buttons{
     right: 106px;
     position: absolute;
@@ -28,9 +33,16 @@
     width: 140px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .Icons_of_Post_navbar{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Icons_of_Post_navbar_vertical{
     background: none;
     border: none;
 }

@@ -3,10 +3,16 @@ import Post_navbar from './Post_navbar';
 import './Post.css';
 import Post_Upload from './Post_Upload';
 import {AiOutlinePlus} from 'react-icons/ai';
+import Post_Card from './Post_Card';
 
 const Post = ({myColor, setmyColor, Inputs, setInputs}) => { 
 
     const [open,isOpen] = useState(false);
+    const [data,myData] = useState([]);
+
+    const handleDelete = (id) => {
+        myData(data.filter(e => e.id !== id));
+    }
   return (
     <div>
         <Post_navbar Inputs ={Inputs}/>
@@ -19,13 +25,37 @@ const Post = ({myColor, setmyColor, Inputs, setInputs}) => {
                 </button>
             </div>
             
-            <div className='post_container2'>
-                <img className='nthng' src='nothing.png'/>
-                <h2 className='nthng_h2'>Nothing Here Yet</h2>
-                <h3 className='nthng_h3'>Create Your First post by clicking '+' button above</h3>
-            </div> 
+            {
+            (()=> {
+                if(data.length === 0)
+                {
+                    return (
+                        <div className='post_container2'>
+                    <img className='nthng' src='nothing.png'/>
+                    <h2 className='nthng_h2'>Nothing Here Yet</h2>
+                    <h3 className='nthng_h3'>Create Your First post by clicking '+' button above</h3>
+                    </div>
+                    )
+                }
+                else{
+                    return(
+                        <>
+                        <div className='making_col'>
+                        {
+                        data.map((e)=>(
+                            <Post_Card onDelete={handleDelete} key={e.id} id={e.id} title={e.title} img={e.img} desc={e.desc}
+                            />
+                        ))
+                        }
+                        </div>
+                        </>
+                        
+                    )
+                }
+            })() 
+            }
         </div>
-        {open && <Post_Upload isOpen={isOpen}/>}
+        {open && <Post_Upload data={data} myData={myData} isOpen={isOpen}/>}
     </div>
   )
 }
